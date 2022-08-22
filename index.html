@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+<div class="grupo">
+    <form action="">
+        <fieldset class=>
+            <legend><b>Cadastro de Usuário</b></legend><br>
+            <div class="inputBox">
+                <input type="text" name="nome" id="nome" autocomplete="off" class="usuario" required>
+                <label for="nome" class="labelinput">Nome completo</label>
+            </div><br><br>
+            <div class="inputBox">
+                <input type="text" name="email" id="email" autocomplete="off" class="usuario" required>
+                <label for="email" class="labelinput">Email</label>
+            </div><br><br>
+            <div class="inputBox">
+                <input type="tel" name="telefone" id="telefone" autocomplete="off" class="usuario" required>
+                <label for="telefone" class="labelinput">Telefone</label>
+            </div>
+            <div class="inputBox" id="genero">
+                <p>Sexo:</p>
+                <input type="radio" name="genero" id="masculino" class="usuario" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" name="genero" id="feminino" class="usuario" value="feminino" >
+                <label for="feminino">Feminino</label><br>
+                <input type="radio" name="genero" id="outro" class="usuario" value="outro" >
+                <label for="outro">Outro</label><br>
+            </div><br><br>
+            
+                <label for="data"><b>Data de Nascimento:</b></label>
+                <input type="date" name="data" id="data" value="data" required>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="cidade" id="cidade" autocomplete="off" class="usuario" required>
+                <label for="cidade" class="labelinput">Cidade</label><br><br>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="estado" id="estado" autocomplete="off" class="usuario" required>
+                <label for="estado" class="labelinput">Estado</label><br><br>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="endereço" id="endereço" autocomplete="off" class="usuario" required>
+                <label for="endereço" class="labelinput">Endereço</label><br><br>
+            </div><br><br>
+            <div>
+                <button id="submit" type="submit">Enviar</a></button>
+                
+            </div>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
